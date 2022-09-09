@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  min-height: 100vh;
+  background: rgb(28, 28, 29);
+  padding-top: 7%;
+}
+.main__wrapper {
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 360px;
+  color: aliceblue;
+  background-color: rgb(21, 21, 22);
+  transition: transform 600ms ease;
+}
+.main__wrapper:hover {
+  transform: scale(1.1, 1.1);
+}
+.main__header-image {
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 50px #4257CB;
+  width: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  }
+  .main__content {
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 55px #4257CB;
+    background-color: inherit;
+  }
+  .main__image {
+    display: block;
+    margin: 0 auto;
+    margin-top: -95px;
+    border-radius: 50%;
+    box-shadow: 0 8px 50px #4257CB;
+    overflow: hidden;
+    object-fit: cover;
+    width: 140px;
+  }
+  .main__title {
+    margin: 25px 0 0 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  .main__paragraph {
+    margin: 0 0 6px 0;
+    text-align: center;
+    font-size: 17px;
+  }
+  .main__2paragraph {
+    margin: 0 0 25px 0;
+    text-align: center;
+    font-size: 13px;
+  }
+  .main__3paragraph {
+    text-align: center;
+    font-size: 17px;
+  }
+  .main__stats {
+    margin: 25px 0 0 32px;
+    display: inline-block;
+    width: 20%;
+  }
+  .main__1stats-user {
+    margin: 0 0 0 17px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .main__2stats-user {
+    margin: 0 0 0 17px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .main__3stats-user {
+    margin: 0 0 0 7px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .main__stats-type {
+    text-align: center;
+    font-size: 17px;
+  }
+  .main__button {
+    display: inline-block;
+    margin: 0 0 0 46px;
+    margin-top: 32px;
+    border: 1px solid rgb(112, 114, 131);
+    border-radius: 10px;
+    padding: 6px 13px;
+    box-shadow: 0 0 18px rgb(112, 114, 131);
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #4257CB;
+    font-size: 22px;
+  }
+  .main__button:hover {
+    background-color: #47484b;
+  }
+  .main__button2 {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    margin-top: 32px;
+    border: 1px solid rgb(112, 114, 131);
+    border-radius: 10px;
+    padding: 6px 13px;
+    box-shadow: 0 0 18px rgb(112, 114, 131);
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #4257CB;
+    font-size: 22px;
+  }
+  .main__button2:hover {
+    background-color: #47484b;
+  }
+  .footer__title {
+    margin-top: 32px;
+    border-radius: 0 0 10px 10px;
+    padding: 4px;
+    box-shadow: 0 0 35px #4257CB;
+    text-align: center;
+    color: rgb(199, 194, 206);
+    background-color: rgb(64, 67, 70);
+    font-size: 27px;
+  }
